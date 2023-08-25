@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"
+    <title></title>
+</head>
+<body>
+    <div class="container">
+        <div class="title">Let's fight</div>
+        <div class="bttns-container">
+            <button class="bttn" id="show-heroes-bttn" >Show heroes</button>
+            <button class="bttn" id="start-fight-bttn">Start fight</button>
+        </div>
+        <div class="heroes-container" id="heroes-container">
+            <div class="hero-container">
+                <div class="avatar">
+                    <img src="./Images/Dwarf-avatar-01.jpg" alt="Khurbada O. Hero" width="200px" class="hero-avatar">
+                </div>
+                <div class="hero-details-container">
+                    <span class="hero-name">Khurbada O. Dwarf</span>
+                    <span>50 XP</span>
+                    <span>Can't fly</span>
+                    <span>Shield</span>
+                </div>
+            </div>
+            <div class="hero-container">
+                <div class="avatar"><img src="./Images/Sprite-avatar-01.jpg" alt="Prinna Bumblelace Hero" width="200px" class="hero-avatar"></div>
+                <div class="hero-details-container">
+                    <span class="hero-name">Prinna Bumblelace </span>
+                    <span>40 XP</span>
+                    <span>Can fly</span>
+                    <span>Has no shield</span>
+                </div>
+            </div>
+            <div class="hero-container">
+                <div class="avatar"><img src="./Images/Dragon-avatar-01.jpg" alt="Aphat, The Pun Hero" width="200px" class="hero-avatar"></div>
+                <div class="hero-details-container">
+                    <span class="hero-name">Aphat, The Pun Dragon</span>
+                    <span>60 XP</span>
+                    <span>Can fly</span>
+                    <span>Has shield</span>
+                </div>
+            </div>
+        </div>
+        <div id="show-fighters">
+                <div class="hero-container">
+                    <div class="avatar">
+                        <img src="./Images/Dwarf-avatar-01.jpg" alt="Khurbada O. Hero" width="200px" class="hero-avatar" id="KHURBADA">
+                    </div>
+                    <div class="hero-details-container">
+                        <span class="hero-name">Khurbada O. Dwarf</span>
+                        <span>50 XP</span>
+                        <span>Can't fly</span>
+                        <span>Shield</span>
+                    </div>
+                </div>
+                <div class="hero-container">
+                    <div class="avatar"><img src="./Images/Dragon-avatar-01.jpg" alt="Aphat, The Pun Hero" width="200px" class="hero-avatar" id="APHAT"></div>
+                    <div class="hero-details-container">
+                        <span class="hero-name">Aphat, The Pun Dragon</span>
+                        <span>60 XP</span>
+                        <span>Can fly</span>
+                        <span>Has shield</span>
+                    </div>
+                </div>
+        </div>
+        <div id="winnerAvatarContainer">
+            <div id="show-winner-hero1">
+                <div>
+                    <img src="./Images/Dwarf-avatar-01.jpg" alt="Khurbada O. Hero" width="200px" class="hero-avatar" id="KHURBADA">
+                </div>
+            </div>
+            <div id="show-winner-hero2">
+                <div><img src="./Images/Dragon-avatar-01.jpg" alt="Aphat, The Pun Hero" width="200px" class="hero-avatar" id="APHAT">
+                </div>
+            </div>
+        </div>
+        <div id="show-winner">
+        </div>
+        <div class="bttns-container">
+            <button class="bttn" id="start-over" >New fight</button>
+        </div>
+    </div>
+
+    <script src="oop-logic.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
