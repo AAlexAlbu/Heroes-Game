@@ -3,7 +3,6 @@ let showHeroesBttn = document.getElementById("show-heroes-bttn");
 let showHeroesContainer = document.getElementById("heroes-container");
 let startFightBttn = document.getElementById("start-fight-bttn");
 let showFighters = document.getElementById("show-fighters");
-// let showWinnerAvatar = document.getElementById("show-winner-avatar");
 let startNewFight = document.getElementById("start-over");
 let winnersAvatarsContainer = document.getElementById("winnerAvatarContainer");
 
